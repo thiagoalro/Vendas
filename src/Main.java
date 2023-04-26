@@ -24,8 +24,6 @@ public class Main {
 			valorVendas = input.nextDouble();
 			totalVendasLoja += valorVendas;
 
-			maiorVenda = valorVendas;
-
 			if (valorVendas > maiorVenda){
 				maiorVenda = valorVendas;
 			}
