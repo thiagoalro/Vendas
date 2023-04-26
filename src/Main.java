@@ -16,10 +16,14 @@ public class Main {
 		quantidadeVendedores = input.nextInt();
 
 		double valorVendas;
+		double totalVendasLoja = 0;
 
 		for (int i=0; i < quantidadeVendedores; i++){
 			System.out.printf("Digite o valor das vendas do %dº vendedor(a):%n", i+1);
 			valorVendas = input.nextDouble();
+			totalVendasLoja += valorVendas;
 		}
+
+		System.out.printf("Valor total de vendas da loja: %.2f", totalVendasLoja);
 	}
 }
