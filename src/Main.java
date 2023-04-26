@@ -24,6 +24,7 @@ public class Main {
 			totalVendasLoja += valorVendas;
 		}
 
-		System.out.printf("Valor total de vendas da loja: %.2f", totalVendasLoja);
+		System.out.printf("Valor total de vendas da loja: %.2f%n", totalVendasLoja);
+		System.out.printf("Média de vendas dos vendedores: %.2f", totalVendasLoja/quantidadeVendedores);
 	}
 }
