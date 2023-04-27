@@ -30,6 +30,8 @@ public class Main {
 			System.out.printf("Digite o valor das vendas do %dº vendedor(a):%n", i+1);
 			valorVendas = input.nextDouble();
 			totalVendasLoja += valorVendas;
+			comissaoVendedor = valorVendas*comissao;
+			System.out.printf("Comissão do %dº vendedor(a): %.2f%n", i+1, comissaoVendedor);
 
 			if (valorVendas > maiorVenda){
 				maiorVenda = valorVendas;
