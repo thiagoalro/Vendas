@@ -22,6 +22,7 @@ public class Main {
 		double totalVendasLoja = 0;
 		double maiorVenda = 0;
 		int melhorVendedor = 0;
+		double comissao = 0.05;
 
 		for (int i=0; i < quantidadeVendedores; i++){
 			System.out.printf("Digite o valor das vendas do %dº vendedor(a):%n", i+1);
